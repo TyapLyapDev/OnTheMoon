@@ -45,7 +45,10 @@ namespace GameCharacter
 
         public void Initialize(IUpdateService updateService)
         {
-            _gravityAligner = new GravityAligner(transform, _gravityBody, updateService, _alignSpeed);
+            _gravityAligner = new GravityAligner(transform,
+                _gravityBody,
+                updateService,
+                _alignSpeed);
 
             if (enabled)
                 _gravityAligner.Enable();
@@ -77,7 +80,8 @@ namespace GameCharacter
 
         private void OnDrawGizmosSelected()
         {
-
+            // отрисовать _groundCheckDistance
+            // отрисовать _groundSphereRadius
         }
     }
 }
