@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddb1b803f279b74f9cd17284fc5cdd6, type: 3}
+  m_Name: ViewpointPresenceConfig
+  m_EditorClassIdentifier: Assembly-CSharp::OnTheMoon.Runtime.Game.ViewpointPresenceConfig
+  _characterConfig: {fileID: 11400000, guid: 79224bbc3f74a694193755aeea1cf450, type: 2}
+  _firstPersonCameraConfig: {fileID: 11400000, guid: b99b41bed3a786545b262ee1058ab06d, type: 2}
+  _thirdPersonCameraConfig: {fileID: 11400000, guid: ab466afde7f95944e9f33a17f4f75d92, type: 2}
